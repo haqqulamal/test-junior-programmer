@@ -24,8 +24,8 @@ python -m venv venv
 # Aktivasi venv
 .\venv\Scripts\activate
 
-# Install dependensi
-pip install django djangorestframework mysqlclient requests
+# Install dependensi (Gunakan Django 4.2.19 untuk kompatibilitas MariaDB 10.4)
+pip install django==4.2.19 djangorestframework mysqlclient requests
 ```
 
 ### 3. Migrasi Database
