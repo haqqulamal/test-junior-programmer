@@ -12,7 +12,7 @@ Project ini dibuat menggunakan Django untuk memenuhi persyaratan test Junior Pro
 ### 1. Persiapan Database
 Pastikan MySQL di XAMPP sudah berjalan. Buat database baru dengan nama:
 ```sql
-CREATE DATABASE fastprint_test;
+fastprint_test
 ```
 
 ### 2. Setup Virtual Environment
